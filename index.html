@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 爱心表白</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <div class="particle-container" id="particleContainer"></div>
+    
+    <div class="main-container">
+        <div class="message-container hidden" id="messageContainer">
+            <div class="heart-container">
+                <div class="heart-3d">
+                    <div class="heart-layer layer-1"></div>
+                    <div class="heart-layer layer-2"></div>
+                    <div class="heart-layer layer-3"></div>
+                </div>
+            </div>
+            
+            <h1 class="title" id="title">遇见你的那一刻</h1>
+            <p class="subtitle" id="subtitle">便注定了这是一段美好的开始</p>
+            <div class="confession-text" id="confessionText" style="opacity: 0; filter: blur(20px);">
+                <p>亲爱的，</p>
+                <p>从遇见你的那一刻起，</p>
+                <p>我的世界便有了不一样的色彩。</p>
+                <p>每一次与你相处的时光，</p>
+                <p>都是我最珍贵的回忆。</p>
+                <p>我想对你说：</p>
+                <p class="love-text">我爱你 ❤️</p>
+                <p>愿与你共度余生的每一个春夏秋冬。</p>
+            </div>
+        </div>
+        
+        <button class="confession-btn" id="confessionBtn">查看表白 💌</button>
+    </div>
+    
+    <div class="fullscreen-heart" id="fullscreenHeart">
+        <span class="fullscreen-heart-emoji">❤️</span>
+    </div>
+    
+    <div class="music-container">
+        <button class="music-btn" id="musicBtn">
+            <span class="music-icon">🎵</span>
+            <span class="music-text">告白气球</span>
+        </button>
+        <audio id="bgMusic" loop autoplay preload="auto">
+            <source src="gaobaiqiqiu.mp3" type="audio/mpeg">
+            您的浏览器不支持音频元素。
+        </audio>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
